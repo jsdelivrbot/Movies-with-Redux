@@ -5,6 +5,8 @@ export default function() {
         { title: 'III - Revenge of the Sith' },
         { title: 'IV - A New Hope' },
         { title: 'V - The Empire Strikes Back' },
-        { title: 'VI - Return of the Jedi' }
+        { title: 'VI - Return of the Jedi' },
+        { title: 'VII - The Force Awakens' },
+        { title: 'VIII - The Last Jedi' }
     ]
 }
