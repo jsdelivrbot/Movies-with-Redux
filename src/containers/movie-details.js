@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 class MovieDetails extends Component{
     render() {
 
+        //Starting case for inital app startup when state = null
         if(!this.props.movie) {
             return <div><h4>Select a movie to get started</h4></div>
         }
@@ -11,7 +12,8 @@ class MovieDetails extends Component{
         return(
             <div>
                 <h3>Details for: </h3>
-                <div>{this.props.movie.title}</div>
+                <div>Title: {this.props.movie.title}</div>
+                <div>Year: {this.props.movie.year}</div>
             </div>
         );
     }
